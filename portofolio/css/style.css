@@ -1,0 +1,401 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    .nav-link {
+        color: #333!important;
+    }
+    
+    .navbar-toggler:hover,
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0!important;
+    }
+    
+    .main {
+        width: 100%;
+        height: 92vh;
+    }
+    
+    .infos {
+        display: inline-block;
+        position: relative;
+        top: 150px;
+        left: 100px;
+    }
+    
+    .imageinfo {
+        position: relative;
+        top: 120px;
+        right: 50px;
+    }
+    
+    .resume {
+        margin: 0;
+    }
+    
+    .resume .col-6 {
+        padding: 20px 50px;
+        text-align: center;
+        margin-bottom: 70px;
+        font-weight: 600;
+    }
+    
+    .dowresume {
+        background-color: #e71d36;
+        color: #fff;
+    }
+    
+    .portofolio {
+        background-color: #06233B;
+        color: #fff;
+    }
+    
+    .link {
+        display: contents;
+    }
+    
+    .link:hover {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .about {
+        background-color: #f6f6f6;
+        padding: 60px 30px;
+    }
+    
+    .about .row {
+        margin: 0;
+    }
+    
+    .aboutme {
+        margin: auto;
+    }
+    
+    .aboutme h2 {
+        padding-bottom: 40px;
+        text-transform: uppercase;
+    }
+    
+    .aboutme h2::after {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 3px;
+        top: 38px;
+        left: 15px;
+        background-color: gray;
+    }
+    
+    .aboutme h2::before {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        top: 45px;
+        left: 15px;
+        background-color: gray;
+    }
+    
+    .aboutmefoto {
+        text-align: center;
+    }
+    
+    .icons {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .icons .col-md-3 {
+        padding: 25px;
+        font-weight: 600;
+    }
+    
+    .hobi {
+        padding: 60px 0 60px 60px;
+        text-transform: uppercase;
+    }
+    
+    .hobies h2::before {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        margin-top: 45px;
+        background-color: gray;
+    }
+    
+    .hobies h2::after {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 3px;
+        left: 60px;
+        margin-top: 38px;
+        background-color: gray;
+    }
+    
+    .myhobis {
+        margin: 0;
+    }
+    
+    .myhobis .col-md-3 {
+        text-align: center;
+        padding: 50px;
+        background-color: #f6f6f6;
+        border-right: 1px solid #DBDBDB;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    
+    .myhobis .col-md-3:nth-child(4) {
+        border-right: none;
+    }
+    
+    .contactme {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 60px;
+        margin: 100px 0 0 0;
+        background-color: #f6f6f6;
+    }
+    
+    .contactbutton {
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: end;
+    }
+    
+    .contactform .col-md-4 p {
+        font-weight: 500;
+    }
+    
+    .btn {
+        background-color: #333!important;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    .mywork {
+        padding-left: 45px;
+        padding-right: 45px;
+        margin: 40px 0;
+    }
+    
+    .auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .mywork a {
+        color: black;
+    }
+    
+    .mywork a:hover {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .mywork h2 {
+        padding: 60px 0 60px 15px;
+        text-transform: uppercase;
+    }
+    
+    .mywork h2::before {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        margin-top: 45px;
+        background-color: gray;
+    }
+    
+    .mywork h2::after {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 3px;
+        left: 60px;
+        margin-top: 38px;
+        background-color: gray;
+    }
+    
+    .mywork .row {
+        margin: 0;
+    }
+    
+    .contactform {
+        background-color: #f6f6f6;
+        margin-top: 100px;
+    }
+    
+    .contactform .row {
+        margin: 0;
+    }
+    
+    .contactform .row .col-md-4 {
+        text-align: center;
+    }
+    
+    .contactform h2 {
+        text-transform: uppercase;
+        padding: 60px 0 100px 60px
+    }
+    
+    .contactform h2::before {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 3px;
+        margin-top: 45px;
+        background-color: gray;
+    }
+    
+    .contactform h2::after {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 3px;
+        left: 60px;
+        margin-top: 38px;
+        background-color: gray;
+    }
+    
+    .imgcontact {
+        padding: 20px 0;
+    }
+    
+    .rights {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 60px;
+        flex-wrap: wrap;
+    }
+    
+    .social .fb {
+        padding: 0 1px;
+    }
+    
+    .social a {
+        text-decoration: none;
+        background-color: none;
+        color: black;
+    }
+    
+    .textimage1 {
+        position: absolute;
+        display: none;
+        opacity: 0.9;
+        top: 35px;
+        width: 400px;
+        height: 250px;
+        background-color: #282727;
+        color: #fff;
+        padding: 77px 30px;
+    }
+    
+    .textimage1 p {
+        margin-top: 35px;
+    }
+    
+    @media only screen and (max-width: 995px) {
+        .x {
+            display: none!important;
+        }
+        .infos {
+            display: table;
+            position: relative;
+            left: 0;
+            top: 50px;
+            margin: auto;
+        }
+        .imageinfo {
+            position: relative;
+            left: 1px;
+            top: 80px;
+        }
+        .mywork .firstfoto {
+            margin-bottom: 80px;
+            padding-right: 50px;
+        }
+        .contactme {
+            padding: 30px;
+        }
+        .resume .col-6 {
+            margin-bottom: 0;
+        }
+        .contactform h2 {
+            padding: 40px 60px;
+        }
+    }
+    
+    @media only screen and (max-width: 770px) {
+        .contactbutton {
+            text-align: start;
+            margin-top: 25px;
+        }
+        .myhobis .col-md-3 {
+            border-bottom: 1px solid #DBDBDB;
+        }
+        .myhobis .col-md-3:nth-child(3) {
+            border-bottom: none;
+        }
+        .myhobis .col-md-3:nth-child(4) {
+            border-bottom: none;
+        }
+        .slide-item h3 {
+            padding: 25px 10px 0 10px!important;
+        }
+        .slide-item p {
+            padding-left: 10px!important;
+        }
+        .mywork {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        .mywork h2::after {
+            left: 45px;
+        }
+        .imageinfo {
+            margin-top: 55px;
+        }
+    }
+    
+    @media only screen and (max-width: 660px) {}
+    
+    #wrapper {
+        position: relative;
+        width: 360px;
+        padding: 5px;
+    }
+    
+    #wrapper a {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        color: white;
+    }
+    
+    #wrapper a img {
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    
+    .slide-item {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #151b25;
+        opacity: 0.9;
+    }
+    
+    .slide-item h3 {
+        padding: 140px 0 0 20px;
+    }
+    
+    .slide-item p {
+        padding-left: 20px;
+    }
